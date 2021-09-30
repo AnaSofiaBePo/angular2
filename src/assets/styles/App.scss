@@ -1,4 +1,7 @@
 @charset "UTF-8";
+@import "./Vars.scss";
+@import "./Media.scss";
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -8,8 +11,8 @@
 
 body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#170055), to(#ae00fb));
-    background-image: linear-gradient(#170055, #ae00fb);
-    font-family: "Mulish", sans-serif;
+    background-image: $main-color;
+    font-family: $theme-font;
     overflow-y: scroll;
 }
 body::-webkit-scrollbar {

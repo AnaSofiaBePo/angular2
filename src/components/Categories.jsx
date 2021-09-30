@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/components/Categories.scss";
 
-const Categories = ({ title = "Mi lista", children }) => (
+const Categories = ({ title, children }) => (
     <div className='categories'>
         <h2 className='category__title'>{title}</h2>
         {children}
